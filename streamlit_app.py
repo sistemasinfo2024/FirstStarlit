@@ -26,4 +26,6 @@ t_apellido = st.text_input("Apellido: ", autocomplete="Apellido")
 data = pd.read_excel('https://github.com/roscha10/ProyectoM6_machine_learning/raw/main/Propuesta%201/BBDD_Hospitalizaci%C3%B3n.xlsx')
 
 sns.histplot(data['EDAD'])
-plt.show()
+
+fig, ax = plt.subplots()
+st.pyplot(fig)
