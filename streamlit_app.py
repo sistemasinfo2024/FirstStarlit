@@ -37,6 +37,8 @@ plt.show()
 
 st.pyplot(fig)
 
+fig, ax = plt.subplots()
+
 showPie(data['DIABETES'])
 
 st.pyplot(fig)
