@@ -36,3 +36,7 @@ sns.histplot(edad, kde=True)
 plt.show()
 
 st.pyplot(fig)
+
+showPie(data['DIABETES'])
+
+st.pyplot(fig)
